@@ -1,0 +1,209 @@
+/* General Reset & Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #e9ecef;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 2px solid #dee2e6;
+}
+
+header h6 {
+  font-weight: bold;
+  margin: 0;
+  color: #212529;
+}
+
+
+main h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #495057;
+  margin-bottom: 30px;
+}
+
+
+.navbar {
+  background-color: white !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+
+.collapse-menu {
+  border-top: 1px solid #dee2e6;
+}
+
+.collapse-menu .nav-link {
+  padding: 8px 0;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.collapse-menu .nav-link:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.sag img,
+.sam img,
+.san img {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+.sag img:hover,
+.sam img:hover,
+.san img:hover {
+  transform: scale(1.03);
+}
+
+
+main {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.h4{
+    text-align: center;
+    justify-content: center;
+}
+/* Base styles */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #040d24;
+  color: white;
+}
+
+/* Section container */
+.cas-section {
+  padding: 40px 20px;
+}
+
+.cas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Left image and name */
+.cas-image {
+  background-color: #6ed3f2;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  max-width: 380px;
+}
+
+.cas-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cas-image h3 {
+  font-size: 1.3rem;
+  margin-top: 16px;
+  color: #000;
+}
+
+.cas-image .rank {
+  font-size: 1rem;
+  color: #ffa500;
+  font-weight: bold;
+}
+
+/* Right text content */
+.cas-info {
+  flex: 1;
+  max-width: 650px;
+}
+
+.cas-info h1 {
+  font-size: 2.5rem;
+  color: #f5b544;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cas-info h1 span {
+  display: block;
+}
+
+.cas-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e2e6ea;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.cas-buttons button {
+  background-color: #339cff;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cas-buttons button:hover {
+  background-color: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cas-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cas-info h1 {
+    font-size: 2rem;
+  }
+
+  .cas-buttons button {
+    margin-bottom: 10px;
+  }
+}
+footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer .btn-outline-light {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mb-3{
+  max-width: 10rem;
+}
